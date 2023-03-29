@@ -1,0 +1,42 @@
+main {padding: 15%;
+
+}
+
+
+
+
+.top-main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#head-tx {
+    font-family: 'pt serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+
+}
+
+#down-tx {
+    font-family: 'poppins';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+      
+}
+
+#who {
+    font-weight: 600;
+}
+#we-are {
+    font-weight: 400;
+}
+
+
+
+
+
