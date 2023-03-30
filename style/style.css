@@ -1,14 +1,12 @@
-main {padding: 15%;
 
+main {
+  padding: 15%;
+  margin: 0;
 }
-
-
-
 
 .top-main{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 #head-tx {
@@ -16,9 +14,9 @@ main {padding: 15%;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 48px;
+    line-height: 27px;
     letter-spacing: -0.045em;
-
+    margin-left: 10%;
 }
 
 #down-tx {
@@ -26,6 +24,7 @@ main {padding: 15%;
     font-style: normal;
     font-size: 18px;
     line-height: 27px;
+    margin-left: 30%;
       
 }
 
@@ -36,7 +35,100 @@ main {padding: 15%;
     font-weight: 400;
 }
 
+#img{
+    width: 260px;
+    height: 400px;
+}
+#img:hover {
+    transform:scale(1.1);
+}
+
+#img2 {
+    padding-top: 20%;
+    width: 260px;
+    height: 400px;
+}
+#img2:hover{
+    transform:scale(1.1);
+}
+
+#img5 {
+    padding-top: 20%;
+    width: 260px;
+    height: 400px;
+    
+}
+
+#img5:hover {
+    transform:scale(1.1);
+}
+
+.img-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 38%;
+    justify-items: center;
+}
+
+.grid-item {
+    margin-top: 50px;
+}
+
+h4{
+    margin-left: 10%;
+}
+
+#p1 {
+    writing-mode: vertical-lr;
+}
 
 
+#p2 {
+    writing-mode: vertical-lr;
+    margin-top: 20%;
+}
 
+.flex{
+    display: flex;
+    margin: 10%;
+}
+
+.flexs{
+    display: flex;
+    margin: 10%;
+}
+
+footer {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+.img-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 34%;
+    justify-items: center;
+}
+
+main {
+  padding: 15%;
+  margin: 0;
+}
+
+.grid-item {
+    margin-top: 20px;
+}
+#img {
+    width: 160px;
+    height: 250px;
+}
+#imgs {
+    width: 160px;
+    height: 250px;
+}
+};
+
+    
 
